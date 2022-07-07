@@ -23,8 +23,8 @@
   font-size: 80px;
 }
 .button {
-  width: 150px;
-  height: 40px;
+  width: 100px;
+  height: 20px;
   font-size: 17px;
   margin-left: 670px;
   margin-top: 40px;
@@ -32,6 +32,12 @@
   color: white;
   border-radius: 5px;
   border: none;
+  text-decoration: none;
+  background-image: linear-gradient(orange, tomato);
+  padding: 10px 40px;
+  color: white;
+  font-weight: 700;
+  border-radius: 5px;
 }
 .donate-part h1 {
   text-align: center;
@@ -88,6 +94,37 @@ hr {
   margin-top: 50px;
   font-size: 20px;
 }
+.family-items {
+  padding-top: 5%;
+  display: flex;
+  padding-left: 5%;
+  padding-right: 5%;
+  padding-bottom: 5%;
+}
+.items-1 {
+  background-color: rgb(179, 171, 171);
+  padding: 3%;
+  margin: 2%;
+  text-align: justify;
+  border-radius: 10px;
+}
+
+.items-2 {
+  background-color: rgb(204, 147, 192);
+  padding: 3%;
+  margin: 2%;
+  text-align: justify;
+  border-radius: 10px;
+}
+
+.items-3 {
+  background-color: blanchedalmond;
+  padding: 3%;
+  margin: 2%;
+  text-align: justify;
+  border-radius: 10px;
+}
+
 .flexible-container {
   display: flex;
   margin-bottom: 150px;
@@ -115,4 +152,74 @@ hr {
   color: white;
   font-weight: 700;
   border-radius: 5px;
+}
+.footer-part {
+  background-color: black;
+  height: 140px;
+}
+.footer-body {
+  text-align: center;
+  padding: 5px;
+  color: white;
+}
+.footer-body h1 {
+  margin-top: 30px;
+  font-family: Sriracha;
+}
+.footer-body p {
+  margin-top: 15px;
+}
+.email-texts h1 {
+  text-align: center;
+  margin-top: 50px;
+  font-size: 50px;
+}
+.email-texts p {
+  text-align: center;
+  margin-top: 50px;
+  font-size: 15px;
+}
+.email {
+  display: flex;
+  padding-top: 4%;
+  padding-left: 35%;
+  padding-right: 20%;
+  width: 45%;
+  padding-bottom: 3%;
+  background-color: blanchedalmond;
+  margin-right: 5%;
+}
+
+.email-field {
+  border-radius: 10px;
+  background-color: white;
+  padding-top: 5%;
+  padding-right: 50%;
+  padding-left: 3%;
+  color: gray;
+  margin-right: 10px;
+  box-shadow: 10px 10px 40px gray;
+}
+.email-button {
+  padding: 5%;
+  border-radius: 10px;
+  margin-right: 10px;
+  background-color: tomato;
+  color: white;
+  box-shadow: 10px 10px 40px gray;
+}
+.volunteer {
+  display: flex;
+  margin-top: 10px;
+  margin-bottom: 10px;
+}
+.volunteer-button {
+  margin-top: 160px;
+  width: 100%;
+  padding: 5%;
+  border-radius: 10px;
+  margin-right: 10px;
+  background-color: tomato;
+  color: white;
+  box-shadow: 10px 10px 40px gray;
 }
